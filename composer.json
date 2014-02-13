@@ -1,0 +1,26 @@
+{
+    "name": "andheiberg/readable",
+    "description": "Make eloquent models readable",
+    "authors": [
+        {
+            "name": "Andreas Heiberg",
+            "email": "heibergandreas@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "4.*",
+        "illuminate/support": "4.x"
+    },
+    "require-dev": {
+        "mockery/mockery": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Andheiberg\\Readable": "src/"
+        },
+        "classmap": [
+            "src/migrations"
+        ]
+    },
+    "minimum-stability": "dev"
+}
