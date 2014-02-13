@@ -1,4 +1,4 @@
-<?php namespace Andheiberg\Messenger\Traits;
+<?php namespace Andheiberg\Readable\Traits;
 
 trait IsReadable
 {
