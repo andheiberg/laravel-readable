@@ -1,6 +1,8 @@
 <?php namespace Andheiberg\Readable\Models;
 
-class ReadableModel extends BaseModel {
+use Illuminate\Database\Eloquent\Model as Eloquent;
+
+class ReadableModel extends Eloquent {
 
 	use Andheiberg\Readable\Traits\IsReadable;
 

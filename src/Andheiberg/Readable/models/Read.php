@@ -1,6 +1,8 @@
 <?php namespace Andheiberg\Readable\Models;
 
-class Read extends BaseModel {
+use Illuminate\Database\Eloquent\Model as Eloquent;
+
+class Read extends Eloquent {
 
 	/**
 	 * The database table used by the model.

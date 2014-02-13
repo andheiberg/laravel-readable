@@ -23,7 +23,7 @@ trait IsReadable
 
 		if ( ! $read)
 		{
-			$this->reads()->save(Read::create(['user_id' => \Auth::user()->id]));
+			$this->reads()->save(\Andheiberg\Readable\Models\Read::create(['user_id' => \Auth::user()->id]));
 		}
 	}
 
