@@ -2,8 +2,7 @@
 Make eloquent models readable
 
 ## Introduction
-For cases where you would like multiple users to be able to mark something as read. In somecases a read_at collumn can easily be added to a reasource table in order to store similar information, this package is for cases where this is not practical.
-
+For cases where you would like multiple users to be able to mark something as read. In some cases a read_at column can easily be added to a resource table to store similar information, this package is for cases where this is not practical.
 ##Overview
 A reads table is created to keep track of read resources.
 
